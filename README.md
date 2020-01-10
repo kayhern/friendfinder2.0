@@ -25,10 +25,6 @@ The functionality within this application is useful for displaying how you can u
 ### Who maintains and contributes to the project
 This project was made for a coding boot camp course. This is maintained by @kayhern (the owner of this GitHub repo).
 
-### Videos of Functionality
+### Video of Functionality
 
-* **Video 1:**
-
-* **Video 2:**
-
-* **Video 3:**
+* https://drive.google.com/file/d/1gIfh20gFp78OBgOMit7uOGIoGAbhiyQK/view
