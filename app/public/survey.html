@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FriendFinder Survey Questions</title>
+    <!--jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--bootstrap js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <br>
+        <h1>Survey Questions</h1>
+    </div>
+    <hr class="my-4">
+    <div class="container">
+        <h3><strong>About You</strong></h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required>
+        <hr>
+    </div>
+
+    <div class="container">
+        <h3><strong>Question 1</strong></h3>
+        <h4>You enjoy spending nights at home versus spending night out.</h4>
+        <select class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3><strong>Question 2</strong></h3>
+        <h4>You enjoy talking about books and philosophy over video games and super hero movies.</h4>
+        <select class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>You put pineapple on pizza.</h4>
+        <select class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>You enjoy traveling.</h4>
+        <select class="chosen-select" id="q4">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>You tend to go with the flow over needing to have a set plan.</h4>
+        <select class="chosen-select" id="q5">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>You have a hard time opening up to people but once you do there's no holding back.</h4>
+        <select class="chosen-select" id="q6">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>You enjoy talking about politics.</h4>
+        <select class="chosen-select" id="q7">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>You hate watching television.</h4>
+        <select class="chosen-select" id="q8">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>You love talking about your religious beliefs.</h4>
+        <select class="chosen-select" id="q9">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3><strong>Question 10</strong></h3>
+        <h4>You are a picky eater.</h4>
+        <select class="chosen-select" id="q10">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit" data-toggle="modal" class="btn btn-primary btn-lg btn-block" id="submit"
+            data-target="#Modal"><i class="fa fa-check-circle" aria-hidden="true"></i>
+            Submit</button>
+        <!--The Modal for Answered Survey and Not Answered Survey-->
+        <div id="Modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Your Match!</h1>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="bestMatch"></h2>
+                        <img id="photo" src="#">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close Window</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+
+    </div>
+    <!--Links to the API Friends List, my GitHub Repo-->
+    <div class="container">
+        <footer><a href="/api/friends">API Friends List</a>|<a href="https://github.com/kayhern/friendfinder">GitHub
+                Repo</a>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        //on click event for the submit button goes here 
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            let valid = true;
+            //ensure users don't input nothing in the fields or else reject the form
+            //this is a good example: https://www.tutorialspoint.com/javascript/javascript_form_validations.htm
+            // the || means "or"
+
+            if ($("#name").val() === "" || $("#photo").val() === "") {
+                valid = false;
+                alert("Please input your name and photo!");
+            } else if ($("#q1").val() === "empty" || $("#q2").val() === "empty" || $("#q3")
+                .val() === "empty" || $("#q4").val() === "empty" || $("#q5").val() === "empty" ||
+                $("#q6").val() === "empty" || $("#q7").val() === "empty" || $("#q8")
+                .val() === "empty" || $("#q9").val() === "empty" || $("#q10").val() === "empty") {
+                valid = false;
+                alert("Please answer all of the questions!!");
+            }
+            if (valid === true) {
+                var userData = {
+                    name: $("#name").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val(),
+                    ]
+                };
+
+                // var currentURL = window.location.origin;
+                // response in the modal after the request
+                $.post("/api/friends", userData, function (res) {
+                    $("#bestMatch").text(res.name);
+                    $("#photo").attr("src", res.photo);
+                    $("#Modal").modal("toggle");
+                });
+            } else {
+                // alert if the survey is not complete
+                alert("Survey is incomplete!");
+            };
+
+        });
+
+        //if all questions answer a modal should appear with the match from the friends.js file
+        //if not all questions modal should appear to prompt user to answer all questions before submitting the survey
+        //send survey questions over to the friends.js file
+    </script>
+
+</body>
+
+</html>
