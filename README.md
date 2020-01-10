@@ -1,5 +1,5 @@
 # friendfinder2.0
-Link to Site: https://kayhern.github.io/bamazon/
+Link to Site: https://shrouded-thicket-07824.herokuapp.com/
 
 ### What the project does
 This application matches the user with their new "best friend" based upon their answers to the survey the user fills out. The application is able to compare the user's answers and provide the user with the closest match.
